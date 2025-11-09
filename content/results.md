@@ -20,11 +20,11 @@ title: "Results"
 <div class="viz-section">
   <div class="viz-content">
     <strong>Genre Evolution</strong><br>
-    Grouped bar chart comparing genre prevalence by aggregating tags from both datasets for side-by-side comparison.<br><br>
-    <strong>Key Pattern</strong>: Rap music grew from 3% in the 1960s to 22% in the 2000s, reflecting major cultural shifts in popular music.
+    Grouped bar chart comparing genre prevalence by aggregating tags from a different dataset.<br><br>
+    <strong>Key Pattern</strong>: SAY SOMETHING HERE.
   </div>
   <div class="viz-chart">
-    <canvas id="comparisonChart"></canvas>
+    <!-- REPLACE THIS WITH A CHART --> 
   </div>
 </div>
 

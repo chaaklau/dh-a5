@@ -25,40 +25,46 @@ function loadTopSongsByViews() {
                 download: true,
                 header: true,
                 complete: function(results2000) {
-                    // Combine and sort by views
-                    const allSongs = [
-                        ...results1960.data.map(s => ({...s, decade: '1960'})),
-                        ...results2000.data.map(s => ({...s, decade: '2000'}))
-                    ];
-                    
-                    // Filter out empty rows and sort
-                    const topSongs = allSongs
+                    // Process each decade separately
+                    const songs1960 = results1960.data
                         .filter(song => song.title && song.views)
                         .sort((a, b) => parseInt(b.views) - parseInt(a.views))
-                        .slice(0, 10);
+                        .slice(0, 5);
                     
-                    const labels = topSongs.map(s => 
-                        `${s.title.substring(0, 20)}${s.title.length > 20 ? '...' : ''}`
-                    );
-                    const views = topSongs.map(s => parseInt(s.views));
-                    const colors = topSongs.map(s => 
-                        s.decade === '1960' ? 'rgba(52, 152, 219, 0.8)' : 'rgba(231, 76, 60, 0.8)'
-                    );
-                    const borderColors = topSongs.map(s => 
-                        s.decade === '1960' ? 'rgba(52, 152, 219, 1)' : 'rgba(231, 76, 60, 1)'
-                    );
+                    const songs2000 = results2000.data
+                        .filter(song => song.title && song.views)
+                        .sort((a, b) => parseInt(b.views) - parseInt(a.views))
+                        .slice(0, 5);
                     
                     new Chart(ctx, {
                         type: 'bar',
                         data: {
-                            labels: labels,
-                            datasets: [{
-                                label: 'Views',
-                                data: views,
-                                backgroundColor: colors,
-                                borderColor: borderColors,
-                                borderWidth: 2
-                            }]
+                            datasets: [
+                                {
+                                    label: '1960s',
+                                    data: songs1960.map(s => ({
+                                        x: s.title.substring(0, 20) + (s.title.length > 20 ? '...' : ''),
+                                        y: parseInt(s.views),
+                                        artist: s.artist,
+                                        year: s.year
+                                    })),
+                                    backgroundColor: 'rgba(52, 152, 219, 0.8)',
+                                    borderColor: 'rgba(52, 152, 219, 1)',
+                                    borderWidth: 2
+                                },
+                                {
+                                    label: '2000s',
+                                    data: songs2000.map(s => ({
+                                        x: s.title.substring(0, 20) + (s.title.length > 20 ? '...' : ''),
+                                        y: parseInt(s.views),
+                                        artist: s.artist,
+                                        year: s.year
+                                    })),
+                                    backgroundColor: 'rgba(231, 76, 60, 0.8)',
+                                    borderColor: 'rgba(231, 76, 60, 1)',
+                                    borderWidth: 2
+                                }
+                            ]
                         },
                         options: {
                             responsive: true,
@@ -66,16 +72,17 @@ function loadTopSongsByViews() {
                             plugins: {
                                 title: {
                                     display: true,
-                                    text: 'Top 10 Most Viewed Songs (1960s vs 2000s)',
+                                    text: 'Top 5 Most Viewed Songs by Decade',
                                     font: { size: 16, weight: 'bold' }
                                 },
                                 legend: {
-                                    display: false
+                                    display: true,
+                                    position: 'top'
                                 },
                                 tooltip: {
                                     callbacks: {
                                         afterLabel: function(context) {
-                                            const song = topSongs[context.dataIndex];
+                                            const song = context.raw;
                                             return [`Artist: ${song.artist}`, `Year: ${song.year}`];
                                         }
                                     }
