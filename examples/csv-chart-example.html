@@ -1,0 +1,74 @@
+<!-- Example: Loading CSV Data with JavaScript -->
+
+<!-- Add this to your content page to visualize CSV data -->
+
+## Dynamic Data Visualization from CSV
+
+<div style="max-width: 800px; margin: 2rem auto;">
+  <canvas id="dataChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script>
+  // Load and parse CSV file
+  Papa.parse('/data/songs_1960_en_top500.csv', {
+    download: true,
+    header: true,
+    complete: function(results) {
+      // Process your data here
+      const data = results.data;
+      
+      // Example: Count songs by genre
+      const genreCounts = {};
+      data.forEach(row => {
+        const genre = row.tag;
+        genreCounts[genre] = (genreCounts[genre] || 0) + 1;
+      });
+      
+      // Get top 10 genres
+      const sortedGenres = Object.entries(genreCounts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10);
+      
+      const labels = sortedGenres.map(item => item[0]);
+      const values = sortedGenres.map(item => item[1]);
+      
+      // Create chart
+      const ctx = document.getElementById('dataChart');
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Number of Songs by Genre',
+            data: values,
+            backgroundColor: 'rgba(52, 152, 219, 0.8)',
+            borderColor: 'rgba(52, 152, 219, 1)',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            title: {
+              display: true,
+              text: 'Top 10 Genres in 1960'
+            }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              title: {
+                display: true,
+                text: 'Number of Songs'
+              }
+            }
+          }
+        }
+      });
+    }
+  });
+</script>
+
+<!-- End of example -->

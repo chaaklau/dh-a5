@@ -1,0 +1,74 @@
+[
+  {
+    "id": "rock",
+    "group": 1,
+    "size": 150,
+    "label": "Rock"
+  },
+  {
+    "id": "pop",
+    "group": 1,
+    "size": 120,
+    "label": "Pop"
+  },
+  {
+    "id": "rb",
+    "group": 1,
+    "size": 100,
+    "label": "R&B"
+  },
+  {
+    "id": "rap",
+    "group": 2,
+    "size": 140,
+    "label": "Rap"
+  },
+  {
+    "id": "country",
+    "group": 1,
+    "size": 60,
+    "label": "Country"
+  },
+  {
+    "id": "soul",
+    "group": 1,
+    "size": 50,
+    "label": "Soul"
+  },
+  {
+    "id": "folk",
+    "group": 1,
+    "size": 40,
+    "label": "Folk"
+  },
+  {
+    "id": "jazz",
+    "group": 1,
+    "size": 30,
+    "label": "Jazz"
+  },
+  {
+    "id": "blues",
+    "group": 1,
+    "size": 35,
+    "label": "Blues"
+  },
+  {
+    "id": "electronic",
+    "group": 2,
+    "size": 70,
+    "label": "Electronic"
+  },
+  {
+    "id": "indie",
+    "group": 2,
+    "size": 55,
+    "label": "Indie"
+  },
+  {
+    "id": "alternative",
+    "group": 2,
+    "size": 80,
+    "label": "Alternative"
+  }
+]
