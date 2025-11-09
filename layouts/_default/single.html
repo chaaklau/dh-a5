@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.personInCharge }}
+    <p class="person-in-charge"><strong>Person in Charge:</strong> {{ .Params.personInCharge }}</p>
+    {{ end }}
+    <div class="content">
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}

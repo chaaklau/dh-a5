@@ -1,0 +1,57 @@
+baseURL = 'https://YOURUSERNAME.github.io/dh-a5'
+languageCode = 'en-us'
+title = 'Your Project Title'
+
+[params]
+  projectTitle = 'Project Title 👀'
+  subtitle = 'A brief description of your project'
+  description = 'Digital Humanities Project'
+  
+  # Team information
+  group = 'X'
+teamMembers = [
+    'John Doe (12345678)',
+    'Tai Man Chan (12340000)',
+    'Sy Tsz Ng (987654321)',
+    'Damian Desmond (55555555)',
+    'Anya Forger (11111111)'
+]
+  course = 'CUS0000 Digital Humanities'
+  lastUpdate = '31st February 2099'
+
+[menu]
+[[menu.main]]
+name = "Introduction"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Research Questions"
+url = "/research/"
+weight = 2
+
+[[menu.main]]
+name = "Data"
+url = "/data/"
+weight = 3
+
+[[menu.main]]
+name = "Results"
+url = "/results/"
+weight = 4
+
+[[menu.main]]
+name = "Discussion"
+url = "/discussion/"
+weight = 5
+
+[[menu.main]]
+name = "References"
+url = "/references/"
+weight = 6
+
+# Markdown settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allow HTML in markdown

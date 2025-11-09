@@ -1,0 +1,200 @@
+[
+  {
+    "id": "pop",
+    "label": "POP",
+    "group": 1,
+    "size": 726
+  },
+  {
+    "id": "rock",
+    "label": "ROCK",
+    "group": 1,
+    "size": 458
+  },
+  {
+    "id": "rap",
+    "label": "RAP",
+    "group": 1,
+    "size": 434
+  },
+  {
+    "id": "rb",
+    "label": "RB",
+    "group": 1,
+    "size": 232
+  },
+  {
+    "id": "country",
+    "label": "COUNTRY",
+    "group": 1,
+    "size": 150
+  },
+  {
+    "id": "Radiohead",
+    "label": "Radiohead",
+    "group": 2,
+    "size": 26.6702
+  },
+  {
+    "id": "Ben E. King",
+    "label": "Ben E. King",
+    "group": 2,
+    "size": 26.17259
+  },
+  {
+    "id": "Britney Spears",
+    "label": "Britney Spears",
+    "group": 2,
+    "size": 14.614650000000001
+  },
+  {
+    "id": "Dora the Explorer",
+    "label": "Dora the Explorer",
+    "group": 2,
+    "size": 13.9311
+  },
+  {
+    "id": "*NSYNC",
+    "label": "*NSYNC",
+    "group": 2,
+    "size": 13.59262
+  },
+  {
+    "id": "Enya",
+    "label": "Enya",
+    "group": 2,
+    "size": 12.27717
+  },
+  {
+    "id": "Coldplay",
+    "label": "Coldplay",
+    "group": 2,
+    "size": 30.75968
+  },
+  {
+    "id": "Linkin Park",
+    "label": "Linkin Park",
+    "group": 2,
+    "size": 18.66458
+  },
+  {
+    "id": "Deftones",
+    "label": "Deftones",
+    "group": 2,
+    "size": 17.35597
+  },
+  {
+    "id": "Wheatus",
+    "label": "Wheatus",
+    "group": 2,
+    "size": 15.493269999999999
+  },
+  {
+    "id": "Limp Bizkit",
+    "label": "Limp Bizkit",
+    "group": 2,
+    "size": 15.23574
+  },
+  {
+    "id": "Eminem",
+    "label": "Eminem",
+    "group": 2,
+    "size": 60
+  },
+  {
+    "id": "OutKast",
+    "label": "OutKast",
+    "group": 2,
+    "size": 33.49413
+  },
+  {
+    "id": "Afroman",
+    "label": "Afroman",
+    "group": 2,
+    "size": 23.00996
+  },
+  {
+    "id": "Nelly",
+    "label": "Nelly",
+    "group": 2,
+    "size": 22.03059
+  },
+  {
+    "id": "JAY-Z",
+    "label": "JAY-Z",
+    "group": 2,
+    "size": 21.38913
+  },
+  {
+    "id": "Shaggy",
+    "label": "Shaggy",
+    "group": 2,
+    "size": 20.92304
+  },
+  {
+    "id": "Erykah Badu",
+    "label": "Erykah Badu",
+    "group": 2,
+    "size": 14.798919999999999
+  },
+  {
+    "id": "Musiq Soulchild",
+    "label": "Musiq Soulchild",
+    "group": 2,
+    "size": 14.50414
+  },
+  {
+    "id": "Etta James",
+    "label": "Etta James",
+    "group": 2,
+    "size": 13.14613
+  },
+  {
+    "id": "Sade",
+    "label": "Sade",
+    "group": 2,
+    "size": 13.0974
+  },
+  {
+    "id": "D'Angelo",
+    "label": "D'Angelo",
+    "group": 2,
+    "size": 13.06812
+  },
+  {
+    "id": "Elvis Presley",
+    "label": "Elvis Presley",
+    "group": 2,
+    "size": 12.227640000000001
+  },
+  {
+    "id": "Johnny Cash",
+    "label": "Johnny Cash",
+    "group": 2,
+    "size": 11.192260000000001
+  },
+  {
+    "id": "The Soggy Bottom Boys",
+    "label": "The Soggy Bottom Boys",
+    "group": 2,
+    "size": 11.14156
+  },
+  {
+    "id": "Lee Ann Womack",
+    "label": "Lee Ann Womack",
+    "group": 2,
+    "size": 10.80415
+  },
+  {
+    "id": "Emmylou Harris",
+    "label": "Emmylou Harris",
+    "group": 2,
+    "size": 10.6919
+  },
+  {
+    "id": "LeAnn Rimes",
+    "label": "LeAnn Rimes",
+    "group": 2,
+    "size": 10.5424
+  }
+]

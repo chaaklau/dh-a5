@@ -1,0 +1,152 @@
+[
+  {
+    "source": "Radiohead",
+    "target": "pop",
+    "value": 3
+  },
+  {
+    "source": "Ben E. King",
+    "target": "pop",
+    "value": 3
+  },
+  {
+    "source": "Britney Spears",
+    "target": "pop",
+    "value": 3
+  },
+  {
+    "source": "Dora the Explorer",
+    "target": "pop",
+    "value": 3
+  },
+  {
+    "source": "*NSYNC",
+    "target": "pop",
+    "value": 3
+  },
+  {
+    "source": "Enya",
+    "target": "pop",
+    "value": 3
+  },
+  {
+    "source": "Coldplay",
+    "target": "rock",
+    "value": 3
+  },
+  {
+    "source": "Radiohead",
+    "target": "rock",
+    "value": 3
+  },
+  {
+    "source": "Linkin Park",
+    "target": "rock",
+    "value": 3
+  },
+  {
+    "source": "Deftones",
+    "target": "rock",
+    "value": 3
+  },
+  {
+    "source": "Wheatus",
+    "target": "rock",
+    "value": 3
+  },
+  {
+    "source": "Limp Bizkit",
+    "target": "rock",
+    "value": 3
+  },
+  {
+    "source": "Eminem",
+    "target": "rap",
+    "value": 3
+  },
+  {
+    "source": "OutKast",
+    "target": "rap",
+    "value": 3
+  },
+  {
+    "source": "Afroman",
+    "target": "rap",
+    "value": 3
+  },
+  {
+    "source": "Nelly",
+    "target": "rap",
+    "value": 3
+  },
+  {
+    "source": "JAY-Z",
+    "target": "rap",
+    "value": 3
+  },
+  {
+    "source": "Shaggy",
+    "target": "rap",
+    "value": 3
+  },
+  {
+    "source": "Ben E. King",
+    "target": "rb",
+    "value": 3
+  },
+  {
+    "source": "Erykah Badu",
+    "target": "rb",
+    "value": 3
+  },
+  {
+    "source": "Musiq Soulchild",
+    "target": "rb",
+    "value": 3
+  },
+  {
+    "source": "Etta James",
+    "target": "rb",
+    "value": 3
+  },
+  {
+    "source": "Sade",
+    "target": "rb",
+    "value": 3
+  },
+  {
+    "source": "D'Angelo",
+    "target": "rb",
+    "value": 3
+  },
+  {
+    "source": "Elvis Presley",
+    "target": "country",
+    "value": 3
+  },
+  {
+    "source": "Johnny Cash",
+    "target": "country",
+    "value": 3
+  },
+  {
+    "source": "The Soggy Bottom Boys",
+    "target": "country",
+    "value": 3
+  },
+  {
+    "source": "Lee Ann Womack",
+    "target": "country",
+    "value": 3
+  },
+  {
+    "source": "Emmylou Harris",
+    "target": "country",
+    "value": 3
+  },
+  {
+    "source": "LeAnn Rimes",
+    "target": "country",
+    "value": 3
+  }
+]

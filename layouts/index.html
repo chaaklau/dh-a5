@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    <div class="content">
+        {{ .Content }}
+    </div>
+    
+    <div class="team-info">
+        <p><strong>Group:</strong> {{ .Site.Params.group }}</p>
+        <p><strong>Team Members:</strong> 
+        {{ if reflect.IsSlice .Site.Params.teamMembers }}
+            {{ delimit .Site.Params.teamMembers ", " }}
+        {{ else }}
+            {{ .Site.Params.teamMembers }}
+        {{ end }}
+        </p>
+        <p><strong>Course:</strong> {{ .Site.Params.course }}</p>
+        <p><strong>Last Update:</strong> {{ .Site.Params.lastUpdate }}</p>
+    </div>
+</article>
+{{ end }}
