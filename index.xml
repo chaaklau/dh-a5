@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Your Project Title</title><link>https://example.org/</link><description>Recent content in Introduction on Your Project Title</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://example.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/about/</guid><description>&lt;h2 id="author"&gt;Author&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on DH Sample Project</title><link>https://chaaklau.github.io/dh-a5/</link><description>Recent content in Introduction on DH Sample Project</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://chaaklau.github.io/dh-a5/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://chaaklau.github.io/dh-a5/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://chaaklau.github.io/dh-a5/about/</guid><description>&lt;h2 id="author"&gt;Author&lt;/h2&gt;
 &lt;p&gt;[Your name and affiliation]&lt;/p&gt;
 &lt;h2 id="course-information"&gt;Course Information&lt;/h2&gt;
 &lt;p&gt;[Course name, semester, institution]&lt;/p&gt;
@@ -7,7 +7,7 @@
 &lt;h2 id="research-area"&gt;Research Area&lt;/h2&gt;
 &lt;p&gt;[Describe your specific focus within the chosen topic area]&lt;/p&gt;
 &lt;h2 id="acknowledgments"&gt;Acknowledgments&lt;/h2&gt;
-&lt;p&gt;[Thank advisors, data sources, or others who helped with this project]&lt;/p&gt;</description></item><item><title>Conclusions</title><link>https://example.org/analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/analysis/</guid><description>&lt;h2 id="summary-of-findings"&gt;Summary of Findings&lt;/h2&gt;
+&lt;p&gt;[Thank advisors, data sources, or others who helped with this project]&lt;/p&gt;</description></item><item><title>Conclusions</title><link>https://chaaklau.github.io/dh-a5/analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://chaaklau.github.io/dh-a5/analysis/</guid><description>&lt;h2 id="summary-of-findings"&gt;Summary of Findings&lt;/h2&gt;
 &lt;p&gt;Briefly summarize your main findings and what they contribute to understanding your topic.&lt;/p&gt;
 &lt;h2 id="limitations"&gt;Limitations&lt;/h2&gt;
 &lt;p&gt;Discuss the limitations of your project. What constraints did you face? What aspects couldn&amp;rsquo;t be addressed?&lt;/p&gt;
@@ -24,7 +24,7 @@
 &lt;li&gt;Future direction 3&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="final-thoughts"&gt;Final Thoughts&lt;/h2&gt;
-&lt;p&gt;Conclude with reflections on what this project reveals about your chosen topic.&lt;/p&gt;</description></item><item><title>Discussion</title><link>https://example.org/discussion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/discussion/</guid><description>&lt;h2 id="interpretation-of-results"&gt;Interpretation of Results&lt;/h2&gt;
+&lt;p&gt;Conclude with reflections on what this project reveals about your chosen topic.&lt;/p&gt;</description></item><item><title>Discussion</title><link>https://chaaklau.github.io/dh-a5/discussion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://chaaklau.github.io/dh-a5/discussion/</guid><description>&lt;h2 id="interpretation-of-results"&gt;Interpretation of Results&lt;/h2&gt;
 &lt;p&gt;What do your findings mean? How do they answer your research questions?&lt;/p&gt;
 &lt;h3 id="finding-1"&gt;Finding 1&lt;/h3&gt;
 &lt;p&gt;Discuss your first major finding and its implications.&lt;/p&gt;
@@ -35,7 +35,7 @@
 &lt;h2 id="relationship-to-existing-scholarship"&gt;Relationship to Existing Scholarship&lt;/h2&gt;
 &lt;p&gt;How do your results relate to previous research in this area? Do they confirm, contradict, or extend existing knowledge?&lt;/p&gt;
 &lt;h3 id="connection-to-source-1"&gt;Connection to Source 1&lt;/h3&gt;
-&lt;p&gt;[Discuss how your work relates to a key source]&lt;/p&gt;</description></item><item><title>Methods</title><link>https://example.org/methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/methods/</guid><description>&lt;h2 id="research-questions"&gt;Research Questions&lt;/h2&gt;
+&lt;p&gt;[Discuss how your work relates to a key source]&lt;/p&gt;</description></item><item><title>Methods</title><link>https://chaaklau.github.io/dh-a5/methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://chaaklau.github.io/dh-a5/methods/</guid><description>&lt;h2 id="research-questions"&gt;Research Questions&lt;/h2&gt;
 &lt;p&gt;What specific questions are you trying to answer with your data analysis?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Research question 1&lt;/li&gt;
@@ -49,7 +49,7 @@
 &lt;p&gt;List any additional data sources or reference materials you used.&lt;/p&gt;
 &lt;h2 id="analysis-methods"&gt;Analysis Methods&lt;/h2&gt;
 &lt;h3 id="data-processing"&gt;Data Processing&lt;/h3&gt;
-&lt;p&gt;Describe how you cleaned, organized, and prepared your data for analysis.&lt;/p&gt;</description></item><item><title>References</title><link>https://example.org/references/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/references/</guid><description>&lt;h2 id="works-cited"&gt;Works Cited&lt;/h2&gt;
+&lt;p&gt;Describe how you cleaned, organized, and prepared your data for analysis.&lt;/p&gt;</description></item><item><title>References</title><link>https://chaaklau.github.io/dh-a5/references/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://chaaklau.github.io/dh-a5/references/</guid><description>&lt;h2 id="works-cited"&gt;Works Cited&lt;/h2&gt;
 &lt;p&gt;List all sources using a consistent citation format (MLA, APA, Chicago, etc.).&lt;/p&gt;
 &lt;h3 id="data-sources"&gt;Data Sources&lt;/h3&gt;
 &lt;ul&gt;
@@ -67,7 +67,7 @@
 &lt;li&gt;[Any other references, tools, or resources used]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="data-availability"&gt;Data Availability&lt;/h2&gt;
-&lt;p&gt;Describe where readers can access the data used in this project.&lt;/p&gt;</description></item><item><title>Results</title><link>https://example.org/results/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/results/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Describe where readers can access the data used in this project.&lt;/p&gt;</description></item><item><title>Results</title><link>https://chaaklau.github.io/dh-a5/results/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://chaaklau.github.io/dh-a5/results/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This analysis examines two comprehensive datasets of popular music: &lt;strong&gt;500 top songs from the 1960s&lt;/strong&gt; and &lt;strong&gt;500 top songs from the 2000s&lt;/strong&gt;. Each dataset includes information about song titles, artists, genres, view counts, and other metadata, allowing for comparative analysis across these two distinct musical eras separated by four decades.&lt;/p&gt;
 &lt;p&gt;The visualizations below are generated dynamically from the full datasets.&lt;/p&gt;
 &lt;h2 id="top-songs-by-popularity"&gt;Top Songs by Popularity&lt;/h2&gt;
