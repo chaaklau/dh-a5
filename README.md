@@ -1,6 +1,4 @@
-# Digital Humanities Project - Music Analysis
-
-A Hugo-based static site for analyzing and visualizing music trends across decades.
+# Digital Humanities at EdUHK - Assignment 5 and Project Page Template
 
 ## Quick Start
 
